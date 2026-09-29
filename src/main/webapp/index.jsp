@@ -1078,7 +1078,7 @@
         <button class="icon-btn" aria-label="Wishlist">
           <i class="far fa-heart"></i>
         </button>
-        <button class="icon-btn" aria-label="Cart">
+        <button class="icon-btn" aria-label="Cart" id="cartButton">
           <i class="fas fa-shopping-bag"></i>
           <span class="cart-badge" id="cartCount">3</span>
         </button>
@@ -1098,10 +1098,10 @@
         <h1>Shop smarter.<br>Live <em>better.</em></h1>
         <p>Handpicked premium products, exclusive member deals, and fast delivery — all in one beautifully curated store.</p>
         <div class="hero-cta">
-          <button class="btn btn-gold">
+          <button class="btn btn-gold" id="exploreBtn">
             <i class="fas fa-bag-shopping"></i> Explore now
           </button>
-          <button class="btn btn-ghost">
+          <button class="btn btn-ghost" id="demoBtn">
             <i class="fas fa-play"></i> Watch demo
           </button>
         </div>
@@ -1158,10 +1158,9 @@
         <h2>Featured <span>products</span></h2>
         <p>Top picks chosen just for you</p>
       </div>
-      <a href="#" class="view-all">View all <i class="fas fa-arrow-right"></i></a>
+      <a href="#" class="view-all" id="viewAllLink">View all <i class="fas fa-arrow-right"></i></a>
     </div>
 
     <!-- CATEGORIES -->
     <div class="categories">
-      <button class="chip active"><i class="fas fa-th-large"></i> All</button>
-      <button class="chip"><i class="fas fa
+      <button class="chip active" data-category="all"><i class="fas fa-th-large"></i> All
